@@ -1,0 +1,22 @@
+2014-09-30 02:23:58 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /form-builder-cakephp/app/
+Stack Trace:
+#0 /var/www/form-builder-cakephp/vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/form-builder-cakephp/vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/form-builder-cakephp/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-30 02:24:34 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /form-builder-cakephp/app/
+Stack Trace:
+#0 /var/www/form-builder-cakephp/vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/form-builder-cakephp/vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/form-builder-cakephp/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

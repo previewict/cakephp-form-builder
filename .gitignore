@@ -1,0 +1,6 @@
+vendor/*
+.idea/*
+.git/*
+
+#Application specific configuration files
+app/Config/database.php

@@ -1,0 +1,6 @@
+{
+    "name": "CakePHP Form Builder",
+    "require": {
+        "cakephp/cakephp": "2.5.*"
+    }
+}
